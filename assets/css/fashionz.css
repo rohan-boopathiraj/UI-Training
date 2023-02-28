@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #2a2b30;
+  padding-top: 70px;
+}
+
+header {
+  width: 87%;
+  margin: auto;
+}
+
+.logoContainer {
+  width: 200px;
+}
+
+.logo {
+  width: 100%;
+}
+
+/* Making the icon circle */
+.icon {
+  width: 60px;
+  height: 60px;
+  background-color: white;
+  border-radius: 50%;
+  position: absolute;
+  right: 139px;
+  top: 65px;
+}
+
+/* On hovering the dropdown menu becomes visible */
+.icon:hover .dropdown {
+  display: block;
+}
+
+.dropdown a:visited,
+.dropdown a:link {
+  color: black;
+}
+
+/* This is the dropdown menu continer */
+.dropdown {
+  background-color: white;
+  color: black;
+  position: absolute;
+  right: 0px;
+  top: 60px;
+  width: 220px;
+  padding: 10px 20px;
+  font-size: 18px;
+  font-weight: 500;
+  display: none;
+  border-top: #2e3138 solid 10px;
+  z-index: 2;
+}
+
+/* dropdown menu item container */
+.dropdown div {
+  padding: 7px;
+}
+
+/* ===== MAIN CONTAINER ===== */
+.main-container {
+  width: 84%;
+  top: 60px;
+  margin: auto;
+  position: relative;
+}
+
+.main-container .row1 {
+  display: flex;
+  justify-content: space-between;
+}
