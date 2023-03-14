@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+.topHeading{
+    background-color: purple;
+    text-align: center;
+    color: white;
+    padding: 10px;
+}
+
+.bottomHeading{
+    color: purple;
+    text-align: center;
+}
+
+img{
+    width: 100%;
+}
+
+.container{
+    width: 90%;
+    margin: auto;
+
+}
+
+.containerItem{
+    display: inline-block;
+    width: 33.1%;
+    margin-bottom: 45px;
+}
+
+.button{
+    background-color: purple;
+    color: white;
+    padding: 10px;
+}
+
+.txt{
+    width: 70%;
+    margin: auto;
+    text-align:justify;
+}
+
+.footerDiv{
+    background-color: purple;
+    color: white;
+    padding: 20px 0px 20px 80px;
+}
+
