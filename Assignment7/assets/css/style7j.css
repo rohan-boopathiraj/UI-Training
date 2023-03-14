@@ -1,0 +1,247 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+body {
+  background-color: #000000;
+}
+
+img {
+  max-width: 100%;
+}
+
+/* Styling for header */
+.email {
+  position: absolute;
+  right: 160px;
+  top: 70px;
+  color: #ffffff;
+  font-size: 30px;
+  font-weight: 400;
+}
+
+.heading {
+  font-size: 179px;
+  color: #ffffff;
+  text-align: center;
+  padding-top: 200px;
+}
+
+.headingFirstName {
+  display: inline;
+  font-weight: 300;
+}
+.headingLastName {
+  display: inline;
+  font-weight: 700;
+}
+
+.subHeading {
+  color: #ffffff;
+  text-align: center;
+  font-size: 59px;
+  font-weight: 600;
+  padding-top: 15px;
+}
+
+.subHeadingFirstName,
+.subHeadingLastName {
+  display: inline;
+  color: #ffffff;
+  padding: 3px;
+}
+
+.subHeadingMiddleName {
+  display: inline;
+  padding: 3px;
+  color: #5c8edc;
+}
+
+/* Styling for Main section */
+.mainContainer {
+  width: 81%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 160px;
+  padding-bottom: 120px;
+}
+
+.imgs {
+  width: 33.3333333%;
+  padding: 15px;
+}
+
+/* section styling starts here */
+.section {
+  color: #ffffff;
+  font-size: 53px;
+  text-align: center;
+  font-weight: 600;
+}
+
+.sectionHeadingFirst {
+  display: inline;
+  color: #cecece;
+}
+
+.sectionHeadingLast {
+  display: inline;
+  color: #c2e891;
+}
+
+/* Logo styling starts here */
+.logo {
+  width: 81%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 95px;
+  padding-bottom: 260px;
+}
+
+.logoImgs {
+  width: 9%;
+  /* padding: 20px; */
+}
+
+.adidas {
+  width: 7%;
+}
+
+.lufthansa {
+  width: 10.5%;
+}
+
+/* Separator styling starts here */
+.separator {
+  width: 90%;
+  margin: auto;
+  /* padding-top: 150px; */
+  padding-bottom: 110px;
+  text-align: center;
+}
+.separator p {
+  color: gray;
+  display: inline-block;
+  font-weight: bolder;
+}
+
+.shorterLine {
+  padding-right: 10px;
+}
+
+.longerLine {
+  padding-left: 10px;
+}
+
+/* Styling for icons */
+.iconContainer {
+  width: 68%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  padding-bottom: 70px;
+}
+
+.icons {
+  width: 6%;
+}
+
+.icons:hover {
+  cursor: pointer;
+}
+
+/* styling for footer */
+.footer {
+  text-align: center;
+  color: #ffffff;
+  padding-bottom: 140px;
+  font-size: 24px;
+}
+
+.footerDes {
+  line-height: 65px;
+}
+@media only screen and (max-width: 425px) {
+  .header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .heading {
+    font-size: 60px;
+  }
+
+  .subHeading {
+    font-size: 35px;
+  }
+
+  .email {
+    position: static;
+    font-size: 17px;
+    padding-top: 10px;
+    text-align: center;
+    order: 3;
+  }
+
+  .mainContainer {
+    width: 100%;
+    padding-top: 100px;
+    padding-bottom: 80px;
+  }
+
+  .imgs {
+    width: 100%;
+    padding-top: 7px;
+    padding-bottom: 7px;
+  }
+
+  .section {
+    font-size: 36px;
+  }
+
+  .logo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    padding-top: 40px;
+    padding-bottom: 160px;
+  }
+
+  .logoImgs {
+    width: 46%;
+    padding: 30px;
+  }
+
+  .adidas {
+    padding: 45px;
+  }
+
+  .separator {
+    font-size: 10px;
+    padding-bottom: 45px;
+  }
+
+  .iconContainer {
+    width: 95%;
+  }
+  .icons {
+    width: 20%;
+  }
+
+  .footer {
+    font-size: 26px;
+  }
+}
