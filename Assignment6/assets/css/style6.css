@@ -1,0 +1,186 @@
+* {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  background-color: #2e3138;
+}
+
+a {
+  text-decoration: none;
+}
+
+.itemImg img {
+  max-width: 100%;
+  background-color: #000;
+}
+
+/* ==== HEADER STYLING ==== */
+
+header {
+  /* width: 84%;
+  margin: auto; */
+  padding: 0px 135px;
+}
+
+/* Name logo styling */
+.logoContainer {
+  padding-top: 58px;
+  display: inline-block;
+}
+
+.logo {
+  width: 60%;
+}
+
+/* Making the white icon circle */
+.icon {
+  width: 60px;
+  height: 60px;
+  background-color: #fff;
+  border-radius: 50%;
+  position: absolute;
+  right: 139px;
+  top: 65px;
+}
+
+/* On hovering the dropdown menu, menu items becomes visible */
+.icon:hover .dropdown {
+  display: block;
+}
+
+/* This is the dropdown menu continer */
+.dropdown {
+  background-color: #fff;
+  color: #000;
+  position: absolute;
+  right: 0px;
+  top: 60px;
+  width: 220px;
+  padding: 10px 20px;
+  font-size: 18px;
+  font-weight: 500;
+  display: none;
+  border-top: #2e3138 solid 10px;
+  z-index: 2;
+}
+
+/* dropdown menu item container */
+.dropdown div {
+  padding: 7px;
+}
+
+.dropdown a:visited,
+.dropdown a:link {
+  color: #000;
+}
+
+/* ===== MAIN SECTION SYTLING ===== */
+
+.mainContainer {
+  /* background-color: aqua; */
+  width: 84%;
+  top: 60px;
+  margin: auto;
+  position: relative;
+}
+
+.mainContainer .row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 140px;
+}
+
+.row1 {
+  padding-bottom: 60px;
+}
+
+/* .mainContainer .row2 {
+  display: flex;
+  justify-content: space-between;
+  padding: 60px 0px 130px;
+} */
+
+/* Each individual item container */
+.fashionItems {
+  width: 23%;
+  position: relative;
+  /* background-color: red; */
+}
+
+.fashionItems h3 {
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 23px;
+  margin-top: 15px;
+}
+
+.fashionItems p {
+  color: #8b8c8d;
+  font-size: 20px;
+  padding: 10px 0px;
+}
+
+.fashionItems button {
+  color: #8b8c8d;
+  font-size: 15px;
+  padding: 10px 15px;
+  background-color: #2e3138;
+  border: #8b8c8d solid;
+  font-weight: 600;
+}
+
+.favIcon {
+  position: absolute;
+  color: #88b282;
+  font-size: 25px;
+  right: 15px;
+  top: 15px;
+}
+
+.row1 .sizeIcon {
+  right: 15px;
+  bottom: 170px;
+}
+.sizeIcon {
+  width: 50px;
+  height: 50px;
+  background-color: #88b282;
+  border-radius: 50%;
+  position: absolute;
+  right: 15px;
+  bottom: 107px;
+}
+
+.size {
+  color: #000;
+  text-align: center;
+  font-size: 25px;
+  padding-top: 11px;
+  font-weight: bolder;
+}
+
+/* ==== FOOTER STYLING ==== */
+.footerContainer {
+  background-color: #000;
+  color: #ffffff;
+  padding: 40px 0px;
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+  text-align: center;
+}
+
+.footerItem {
+  display: inline;
+  padding: 0px 30px;
+  font-size: 25px;
+  font-family: sans-serif;
+}
+
+.footerContainer a:visited,
+.footerContainer a:link {
+  color: #ffffff;
+}
