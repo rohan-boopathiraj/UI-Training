@@ -1,0 +1,200 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+.bgImg {
+  position: absolute;
+  background-image: url(/Sirius-UI-Training/Assignments/Assignment8/assets/images/background-image.png);
+  background-size: 100%;
+  /* background-attachment: fixed; */
+  width: 100%;
+  height: 100vh;
+  z-index: -1;
+  filter: brightness(75%);
+}
+
+/* styling for heading */
+.mainHeading {
+  color: #ffffff;
+  font-size: 75px;
+  font-weight: 900;
+  text-align: center;
+  padding-top: 57px;
+}
+
+/* Styling for DROP DOWN ICON  */
+.threeBars {
+  display: inline-block;
+  padding: 30px;
+  position: absolute;
+  top: 53px;
+  background-color: #000000;
+}
+
+.bar {
+  width: 35px;
+  height: 3px;
+  background-color: #ffffff;
+  margin: 6px 0;
+}
+.menuContainer {
+  background-color: #000000;
+  display: inline-block;
+  width: 17%;
+  text-align: center;
+  border-radius: 36px;
+  font-size: 20px;
+  font-weight: 300;
+  position: absolute;
+  transition: 0.5s;
+  left: -300px;
+}
+
+.hatIcon {
+  padding-top: 50px;
+  padding-bottom: 2px;
+}
+
+.menuItems {
+  color: #ffffff;
+}
+
+.menuItems ul {
+  padding: 20px;
+  list-style: none;
+}
+.menuItems ul li {
+  padding: 10px;
+}
+
+/* https://stackoverflow.com/questions/12574668/change-color-of-sibling-elements-on-hover-using-css */
+.threeBars:hover + .menuContainer {
+  left: -25px;
+}
+
+/* THIS HOVER WORKS */
+/* .threeBars:hover .bar {
+  height: 100px;
+} */
+
+/* 
+ Styling for DROP DOWN ICON 
+
+.drowdownIcon {
+  display: inline-block;
+  padding: 30px;
+  position: absolute;
+  top: 53px;
+  background-color: #000000;
+}
+.bar {
+  width: 35px;
+  height: 3px;
+  background-color: #ffffff;
+  margin: 6px 0;
+}
+
+ Styling for MENU 
+.menuContainer {
+  background-color: #000000;
+  display: inline-block;
+  width: 17%;
+  text-align: center;
+  border-radius: 36px;
+  font-size: 20px;
+  font-weight: 300;
+  position: absolute;
+  transition: 1.5s;
+   left: -300px; 
+}
+
+.hatIcon {
+  padding-top: 50px;
+  padding-bottom: 2px;
+}
+
+.menuItems {
+  color: #ffffff;
+}
+
+.menuItems ul {
+  padding: 20px;
+  list-style: none;
+}
+.menuItems ul li {
+  padding: 10px;
+}
+
+ HOVER EFFECTS styling 
+.drowdownIcon:hover .drowdownIcon {
+  left: -27px;
+} */
+
+/* styling to rotate for 270deg */
+.toRotate {
+  color: #ffff;
+  position: absolute;
+  font-weight: 900;
+  transform: rotate(270deg);
+  right: -107px;
+  top: 175px;
+}
+
+.rotateTextWord {
+  display: inline;
+  font-size: 40px;
+}
+
+.rotateTextNumber {
+  font-size: 115px;
+  display: inline;
+  padding-left: 6px;
+}  
+
+/* Styling for bottom heading */
+.bottomHeading {
+  color: #ffff;
+  text-align: center;
+  position: absolute;
+  bottom: 35px;
+  margin: auto;
+  width: 100%;
+}
+
+.bottomHeadingFirst {
+  font-size: 115px;
+  font-weight: 500;
+}
+
+.bottomHeadingLast {
+  font-size: 150px;
+  font-weight: 600;
+}
+
+/* Styling for FOOTER icons */
+.footerIcons {
+  position: absolute;
+  font-size: 48px;
+  color: #ffffff;
+  bottom: 0;
+  right: 0;
+}
+
+#twitterIcon {
+  position: absolute;
+  right: 110px;
+  bottom: 20px;
+  font-size: 48px;
+  color: #ffffff;
+}
+
+#facebookIcon {
+  position: absolute;
+  right: 35px;
+  bottom: 25px;
+  font-size: 48px;
+  color: #ffffff;
+}
