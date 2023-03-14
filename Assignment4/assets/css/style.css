@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+/* style for header */
+header h1 {
+  text-align: center;
+  background-color: #2d5e90;
+  color: #f6f6f6;
+  padding: 30px;
+}
+
+/* This container holds all the cards */
+.mainContainer {
+  width: 85%;
+  margin: auto;
+  padding-top: 40px;
+}
+
+/* Network heading styling */
+.articleHeading {
+  color: #f6f6f6;
+  background-color: #2d5e90;
+  padding: 15px 25px;
+  font-weight: 500;
+}
+
+/* Styling for the individual contents or cards */
+.card {
+  padding: 10px;
+}
+
+/* This is the container for */
+.content {
+  background-color: #f6f6f6;
+  padding: 20px 17px 17px;
+  border: 1px solid #2d5e90;
+}
+
+/* It contains the description paragraph */
+.content p {
+  text-align: justify;
+}
+
+/* Clearing the float */
+.clearFix {
+  clear: both;
+}
+
+/* floating the left side container to left */
+.sectionLeft {
+  float: left;
+  width: 60%;
+}
+
+/* floating the right side container to the right */
+.sectionRight {
+  float: right;
+  width: 40%;
+}
+
+@media only screen and (max-width: 768px) {
+  .sectionLeft,
+  .sectionRight {
+    width: 100%;
+  }
+
+  .sectionRight {
+    float: none;
+  }
+  .articleHeading {
+    clear: both;
+  }
+}
